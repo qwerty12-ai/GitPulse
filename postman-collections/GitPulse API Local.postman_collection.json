@@ -1,0 +1,243 @@
+{
+  "info": {
+    "_postman_id": "1e47c754-64b3-49d7-9506-df227287676c",
+    "name": "GitPulse API Local",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47626543",
+    "_collection_link": "https://go.postman.co/collection/47626543-1e47c754-64b3-49d7-9506-df227287676c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "octocat analyze profile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/analyze/octocat",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "analyze",
+            "octocat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profile octocat",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles/octocat",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles",
+            "octocat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "octocat analytics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles/octocat/analytics",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles",
+            "octocat",
+            "analytics"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "leaderboard",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/leaderboard",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "leaderboard"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "qwerty12-ai analyze profile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/analyze/qwerty12-ai",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "analyze",
+            "qwerty12-ai"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "torvalds analyze profile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/analyze/torvalds",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "analyze",
+            "torvalds"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profile qwerty12-ai",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles/qwerty12-ai",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles",
+            "qwerty12-ai"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "qwerty12-ai analytics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles/qwerty12-ai/analytics",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles",
+            "qwerty12-ai",
+            "analytics"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profile torvalds",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles/torvalds",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles",
+            "torvalds"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "torvalds analytics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles/torvalds/analytics",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles",
+            "torvalds",
+            "analytics"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

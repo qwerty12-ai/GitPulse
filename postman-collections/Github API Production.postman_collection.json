@@ -1,0 +1,251 @@
+{
+  "info": {
+    "_postman_id": "f4509be1-7fb0-4e5e-98cb-43c23533a9e2",
+    "name": "Github API Production",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47626543",
+    "_collection_link": "https://go.postman.co/collection/47626543-f4509be1-7fb0-4e5e-98cb-43c23533a9e2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "qwerty12-ai analyze profile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/analyze/qwerty12-ai",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "analyze",
+            "qwerty12-ai"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "octocat analyze profile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/analyze/octocat",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "analyze",
+            "octocat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "torvalds analyze profile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/analyze/torvalds",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "analyze",
+            "torvalds"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profile qwerty12-ai",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/profiles/qwerty12-ai",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "qwerty12-ai"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profile octocat",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/profiles/octocat",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "octocat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profile torvalds",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/profiles/torvalds",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "torvalds"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "qwerty12-ai analytics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/profiles/qwerty12-ai/analytics",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "qwerty12-ai",
+            "analytics"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "octocat analytics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/profiles/octocat/analytics",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "octocat",
+            "analytics"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "torvalds analytics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/profiles/torvalds/analytics",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "torvalds",
+            "analytics"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gitpulse-production-2582.up.railway.app/api/profiles",
+          "protocol": "https",
+          "host": [
+            "gitpulse-production-2582",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "leaderboard",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
