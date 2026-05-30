@@ -11,9 +11,4 @@ const pool = mysql.createPool({
     port: process.env.DB_PORT,
 })
 
-console.log("host:", process.env.DB_HOST)
-console.log("port:", process.env.DB_PORT)
-console.log("user:", process.env.DB_USER)
-console.log("name:", process.env.DB_NAME)
-
 module.exports = pool
