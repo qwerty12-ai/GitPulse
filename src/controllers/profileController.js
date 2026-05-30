@@ -114,7 +114,7 @@ const analyzeProfile = async (req, res) => {
                     userId,
                     repo.name,
                     repo.language,
-                    repo.starsgazers_count,
+                    repo.stargazers_count,
                     repo.forks_count,
                     createdAt,
                     updatedAt
